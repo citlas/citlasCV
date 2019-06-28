@@ -1,6 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
-html, body{
-    height: 100%;
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+    color: grey;
 }
 
-body { padding-top: 70px; }
+html, body{
+    height: 100%;    
+}
+
+body { 
+    padding-top: 70px; 
+}
+
+.red {
+    color: tomato;
+}
+
+.section {
+    margin: 5% 0;
+}
+

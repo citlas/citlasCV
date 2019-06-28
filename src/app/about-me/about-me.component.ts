@@ -7,7 +7,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./about-me.component.scss']
 })
 export class AboutMeComponent implements OnInit {
-  faCoffee = faCoffee;
+ 
   
   constructor() { }
 

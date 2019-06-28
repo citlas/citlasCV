@@ -17,6 +17,16 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { faGlobeAmericas } from '@fortawesome/free-solid-svg-icons';
 import { faMoneyBillAlt } from '@fortawesome/free-solid-svg-icons';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import { faLanguage } from '@fortawesome/free-solid-svg-icons';
+import { faGrinBeamSweat } from '@fortawesome/free-solid-svg-icons';
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+
+
+
 
 
 @NgModule({
@@ -44,6 +54,12 @@ export class AppModule {
     library.add(faCoffee);
     library.add(faGlobeAmericas);
     library.add(faMoneyBillAlt);
-    
+    library.add(faChevronDown);
+    library.add(faLanguage);
+    library.add(faGrinBeamSweat);
+    library.add(faChevronRight);
+    library.add(faChevronLeft);
+    library.add(faGithub);
+    library.add(faLinkedinIn);
   }
 }
