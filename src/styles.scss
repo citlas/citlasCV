@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
 *{
-    //font-family: 'Quicksand', sans-serif;
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     
 }
 
@@ -12,7 +11,7 @@ html, body{
 }
 
 body { 
-    padding-top: 70px; 
+   
 }
 
 .red {
@@ -24,6 +23,9 @@ body {
 }
 
 .section {
-    margin: 5% 0;
+    padding-top: 75px;
 }
 
+.boldFont{
+    font-family: "Arial Black", Gadget, sans-serif;
+}
