@@ -1,23 +1,39 @@
 <div class="section" id="aboutMe">
     <h2 class="">About me</h2>
+    <div class="languages textAndIcon row">
+      <fa-icon [icon]="['fas', 'language']" [styles]="{'stroke': 'red', 'color': 'red'}" size="2x" class="faIcon col-3" ></fa-icon>
+      <p class="textWithIcon col-8"> I speak Spanish (Mexican native), English (Advanced), Catalan and French (Basic) and when I was younger I enjoyed my italian and german classes. Unfortunately I forgot all about them!!</p>
+    </div>
+
+    <div class="strengths textAndIcon row ">
+        <fa-icon class="faIcon col-3" [icon]="['fas', 'fist-raised']" size="2x"></fa-icon>
+        <p class="textWithIcon col-8"> My strengths are: Honest, enjoy continous learning, reliable, empathetic, hard-working and loyal</p>
+      </div>
+
+
     
-    <p><fa-icon [icon]="['fas', 'language']" size="2x"></fa-icon> - I speak Spanish (Mexican native), English (Advanced), Catalan and French (Basic) and when I was younger I enjoyed my italian and german classes. Unfortunately I forgot them!!</p>
     
     <h4>I am most proud of:</h4>
-    <p><fa-icon [icon]="['fas', 'globe-americas']"  size="2x"></fa-icon> - Do an event in other country, helping to coordinate everything: logistics, stadium, budgets...</p>
-    <p><fa-icon [icon]="['fas', 'money-bill-alt']" size="2x"></fa-icon>Wisely spend budgets for my advertisement campaigns around Mexico and Spain in close relationship with the mexican tourism board.</p>
-    <p><fa-icon [icon]="['fas', 'grin-beam-sweat']" size="2x"></fa-icon>Leave my comfort zone and learn new stuff.</p>
-
+    <div class=" row textAndIcon text-center"> 
+      <div class="col-4">
+          <fa-icon class="faIconMed" [icon]="['fas', 'globe-americas']"  size="2x"></fa-icon>
+          <p class="">Do an event in other country, helping to coordinate everything: logistics, stadium, budgets...</p>
+      </div> 
+      <div class="col-4">
+          <fa-icon class="faIconMed" [icon]="['fas', 'money-bill-alt']" size="2x"></fa-icon>
+          <p class="">Wisely spend budgets for my advertisement campaigns around Mexico and Spain in close relationship with the mexican tourism board.</p>
+      </div> 
+      <div class="col-4">
+        <fa-icon class="faIconMed" [icon]="['fas', 'grin-beam-sweat']" size="2x"></fa-icon>
+        <p class="">Leave my comfort zone and learn new stuff.</p>
+      </div> 
+      
+      
+      
+      
+    </div>   
    
-    <h4>Strengths</h4>
-    <ul>
-        <li>Honest</li>
-        <li>Enjoy continous learning</li>
-        <li>Reliable</li>
-        <li>Empathetic</li>
-        <li>Hard-working</li>
-        <li>Loyal</li>
-    </ul>
+
     <h4>Testimonials</h4>
     <div class="bd-example">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -44,7 +60,7 @@
                 <div class="carousel-item">
                   <div class="new_html_code"></div>
                   <div class="carousel-caption d-none d-md-block">
-                    <h4>I am awesome.</h4>
+                    <h4>I will improve ;)</h4>
                     <p>Me</p>
                   </div>
                 </div>
@@ -65,12 +81,7 @@
             </div>
     </div>
 
-    <h4>Previous works</h4>
-    <ul>
-        <li>Angular - this site you are watching right now</li>
-        <li><a href="https://citlas.github.io/itStripes/">CSS animation</a> - playing with css animation </li>
-        
-    </ul>
+   
 
    
 </div>

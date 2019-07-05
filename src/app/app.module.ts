@@ -24,6 +24,7 @@ import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faFistRaised } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -61,5 +62,6 @@ export class AppModule {
     library.add(faChevronLeft);
     library.add(faGithub);
     library.add(faLinkedinIn);
+    library.add(faFistRaised);
   }
 }

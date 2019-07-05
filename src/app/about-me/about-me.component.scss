@@ -9,3 +9,26 @@ div.new_html_code {
     display:block;
     
   }
+
+  .faIcon{
+    font-size: 5rem;
+  }
+
+  .faIconMed{
+    font-size: 3rem;
+  }
+
+  .textAndIcon{
+    display: flex;
+    margin: 3%;
+    text-align: center;
+  }
+
+  .textWithIcon{
+    align-self: center;
+    margin: 3%;
+  }
+
+  .carousel-caption, .carousel-control-prev , .carousel-control-next{
+    color:black;
+  }
